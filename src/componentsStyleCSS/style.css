@@ -1,0 +1,499 @@
+.align-valign-center {
+    border: 1px solid black;
+    width: 50%;
+    height: 50%;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.align-center {
+    margin: 0;
+}
+
+.center_login_admin {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0px 10px 28px rgba(0, 0, 0, 0.3);
+    background-color: white
+}
+
+.box-login {
+    width: 100%;
+}
+
+.inputlogin {
+    width: 135%;
+    height: 20px;
+    margin-left: 10px;
+    border: 1px solid black;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+}
+
+.font-size {
+    font-size: 20px;
+}
+
+.form_center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: translateX(-50px);
+    -webkit-transform: translateX(-50px);
+    -moz-transform: translateX(-50px);
+    -ms-transform: translateX(-50px);
+    -o-transform: translateX(-50px);
+}
+
+.btn-submit {
+    margin-top: 12px;
+    font-size: 20px;
+    text-align: center;
+    transform: translateX(150px);
+    cursor: pointer;
+    border-radius: 5px;
+    background-color: white;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    width: 120px;
+    -webkit-transform: translateX(150px);
+    -moz-transform: translateX(150px);
+    -ms-transform: translateX(150px);
+    -o-transform: translateX(150px);
+}
+
+.btn-submit:hover {
+    background-color: green;
+    color: aliceblue;
+}
+
+.body {
+    background-color: rgb(244, 244, 244);
+
+}
+
+.font-icon {
+    padding-right: 10px;
+}
+
+.menu>a {
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    padding-left: 10px;
+}
+
+.header {
+    background-color: #081127;
+    color: white;
+    font-size: 20px;
+    height: 50px;
+}
+
+.body-admin {
+    width: 100%;
+}
+
+.center_menu {
+    margin-top: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+ul.menu.center_menu {
+    display: flex;
+    height: 100%;
+    background-color: #081127;
+    flex-direction: column;
+    margin: 0;
+    justify-content: space-evenly;
+    padding: 0;
+    padding-left: 5px;
+    position: relative;
+
+}
+
+
+.img_logo {
+
+    position: relative;
+    left: -21px;
+    background-size: cover;
+    padding: 79px;
+    background-image: url("F:\projectShopingOnline\client-admin\src\components\logo.jpg");
+}
+
+.row2-12 {
+    width: 140px;
+    height: 612px;
+}
+
+.CATEGORY_center {
+    display: flex;
+    flex-direction: column;
+}
+
+.category_table {
+    position: relative;
+    /* left: 50px; */
+}
+
+.table_item {
+    width: 50%;
+    padding: 5px;
+}
+
+.item-table {
+    position: relative;
+    left: 41px;
+}
+
+.btn {
+    cursor: pointer;
+    margin-left: 11px;
+    padding: 2px 7px;
+}
+
+/* .dislay_inline{
+    display: inline-block;
+} */
+.btn_submit {
+    border-radius: 3px;
+    color: white;
+    background-color: rgb(27, 139, 27);
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+}
+
+.btn-update {
+    border-radius: 3px;
+    color: white;
+    background-color: rgb(218, 218, 14);
+}
+
+.btn-delet {
+    border-radius: 3px;
+    color: white;
+    background-color: rgb(218, 31, 31);
+}
+
+.btn-delet:hover {
+    opacity: 0.7;
+}
+
+.btn-update:hover {
+    opacity: 0.7;
+}
+
+.btn_submit:hover {
+    opacity: 0.7;
+}
+
+.input_id_name {
+    width: 238px;
+}
+
+.item_btn {
+    position: relative;
+    top: 10px;
+    left: -18px;
+}
+
+.logout_item {
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.list_product {
+    position: relative;
+    left: 10px;
+}
+
+span.link {
+    margin: 0 10px;
+    /* font-size: 18px; */
+}
+
+.item_product {
+    padding-left: 10px;
+    padding-right: 15px;
+}
+
+.product-detail {
+    position: relative;
+    right: 35px;
+}
+
+/* pc */
+@media(min-width:1240px) {
+    .menu_icon_mobile {
+        display: none;
+    }
+}
+
+/* mobile */
+@media(max-width: 740px) {
+    .as {
+        left: 6px;
+    }
+
+    #as {
+        text-align: justify;
+    }
+
+    .form_center_mobile {
+        transform: translateX(0);
+        -webkit-transform: translateX(0);
+        -moz-transform: translateX(0);
+        -ms-transform: translateX(0);
+        -o-transform: translateX(0);
+    }
+
+    .login-input-mobile {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .inputlogin {
+        width: 85%;
+    }
+
+    .btn-submit {
+        position: relative;
+        right: 125px;
+    }
+
+    .img_logo {
+        position: relative;
+        left: 0px;
+        background-size: cover;
+        padding: 42px;
+    }
+
+    .row2-12 {
+        width: 100px;
+        height: 612px;
+    }
+
+    .menu>a {
+        font-size: 15px;
+        padding-left: 2px;
+    }
+
+    #menu_mobile {
+        display: none;
+    }
+
+    /* .menu_icon_mobile{
+        font-size: 20px;
+        font-size: 35px;
+        margin: 7px 12px;
+        cursor: pointer;
+        display: block;
+    } */
+    .item-table {
+        left: 0;
+    }
+
+    #datatable_mobile {
+        position: relative;
+        top: -290px;
+    }
+
+    #CATEGORY-mobile {
+        position: relative;
+        bottom: 309px;
+    }
+
+    .list_product {
+        position: relative;
+        top: -520px;
+        left: 0;
+    }
+
+    #product_list-menu {
+        position: relative;
+        top: -520px;
+        width: 62%;
+    }
+
+    #PRODUCT_detail_mobole {
+        position: relative;
+        top: -470px;
+    }
+
+    #table_product {
+        position: relative;
+        top: -450px;
+    }
+
+    #ipproduct {
+        width: 100%;
+        height: 24px;
+        width: 100%;
+        border: 1px solid;
+        border-radius: 5px;
+        margin: 2px 0;
+
+    }
+
+    .name {
+        font-size: 20px;
+    }
+
+    #imgproduct {
+        position: relative;
+        top: 20px;
+        left: 40px;
+    }
+
+    .align-center {
+        display: block;
+
+    }
+
+    #hide {
+        display: none;
+    }
+
+    #oder_mobile {
+        position: relative;
+        top: -450px;
+    }
+
+    #id_product {
+        max-width: 131px;
+        overflow: hidden;
+    }
+
+    #info_oder {
+        width: 100%;
+    }
+
+    .align-center2 {
+        display: flex;
+    }
+
+    #from_date {
+        position: relative;
+        left: -100px;
+    }
+
+    #id_product2 {
+        max-width: 80px;
+        overflow: hidden;
+    }
+
+    #hide_info {
+        position: relative;
+        top: -340px;
+    }
+
+    #id_product3 {
+        max-width: 100px;
+        overflow: hidden;
+    }
+}
+
+/* tablet */
+@media (min-width:710px) and (max-width:1239px) {
+    .as {
+        position: absolute;
+        left: 56%;
+        top: 110px;
+        padding: 24px;
+        border: 1px solid black;
+    }
+
+    .item-table {
+        left: 0;
+    }
+
+    .table_item {
+        width: 89%;
+        padding: 5px;
+    }
+
+    .as {
+        position: absolute;
+        left: 18%;
+        top: 330px;
+        width: 81%;
+        padding: 24px;
+        border: 1px solid black;
+    }
+
+    .ason {
+        position: relative;
+        top: 31px;
+    }
+
+    .table_item {
+        width: 89.7%;
+        padding: 5px;
+    }
+
+    .item-table {
+        left: 6px;
+    }
+
+    .list_product {
+        position: relative;
+        left: 20px;
+    }
+
+    .item_info {
+        max-width: 135px;
+        overflow: hidden;
+    }
+
+    .product-detail {
+        position: relative;
+        right: 330px;
+    }
+
+    .img_table {
+        position: relative;
+    }
+
+    td#imgproduct\ img_table {
+        position: relative;
+        top: revert-layerpx;
+        top: -205px;
+        left: 350px;
+    }
+
+    h2#PRODUCT_detail_mobole {
+        position: relative;
+        left: 143px;
+        margin-bottom: 38px;
+    }
+
+    .name {
+        font-size: 20px;
+    }
+
+    .row2-12 {
+        width: 140px;
+        height: 1107px;
+    }
+
+    .width_content {
+        max-width: 115px;
+        overflow: hidden;
+    }
+
+}
